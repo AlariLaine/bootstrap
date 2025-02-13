@@ -6,27 +6,56 @@
     <meta name="võtmesõnad" content="HTML,CSS,HTML5,CSS3">
     <meta name="autor" content="Alari Laine IT-23">
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="b04.css">
+    <link rel="stylesheet" href="b05.css">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="b04.css">
+    <link rel="stylesheet" href="b05.css">
 
-    <title>Harjutus04</title>
+    <title>Harjutus05</title>
 </head>
 
 <body>
     <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#"><i class="fas fa-rocket"></i> Veebilõust</a>
+        
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#minuMenyy" aria-expanded="false">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+        
+          <div class="collapse navbar-collapse" id="minuMenyy">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Avaleht</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Teenused</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Meeskond</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Kontakt</a>
+              </li>
+            </ul>
+                <button class="btn btn-success my-2 my-lg-0" type="submit">
+                   <i class="fas fa-user"></i> Logi sisse
+                </button>
+          </div>
+          </nav>
         <div class="jumbotron">
-            <h1 class="text-center display-1 text-white">Jumbotron</h1>
-            <p class="text-center text-white">lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            <div class="row align-items-start">
+          <div class="text-center rounded-0">
+            <div>
+              <h1>Custom jumbotron</h1>
+              <p >Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
             </div>
+          </div>
         </div>
         <div class="card-deck">
             <div class="card">
-                <img src="koer.jpg" class="img-fluid" height="250" alt="...">
+                <img src="koer.jpg"  height="250" alt="...">
                 <div class="card-body">
                     <h5>Magna dolore ut</h5>
                     <h6><span class="badge badge-primary">Primary</span>
@@ -42,13 +71,16 @@
                 </div>
             </div>
             <div class="card">
-                <img src="kass.jpg" class="img-fluid" height="250" alt="...">
+                <img src="kass.jpg"  height="250" alt="...">
                 <div class="card-body">
                     <h5>Sit ame Minim</h5>
                     <h6><span class="badge badge-danger">Danger</span>
                         <span class="badge badge-secondary">Secondary</span>
                     </h6>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus nesciunt
+                        voluptates maxime cum aliquid, magnam recusandae illo nihil. Obcaecati a tempora nesciunt neque!
+                        voluptates maxime cum aliquid, magnam recusandae illo nihil. Obcaecati a tempora nesciunt neque!
+                        voluptates maxime cum aliquid, magnam recusandae illo nihil. Obcaecati a tempora nesciunt neque!
                         voluptates maxime cum aliquid, magnam recusandae illo nihil. Obcaecati a tempora nesciunt neque!
                         Optio modi culpa, libero eveniet sequi necessitatibus!</p>
                     <a href="https://brand.linkedin.com/" class="fab fa-linkedin fa-2x" style="color: black;"></a>
