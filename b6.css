@@ -1,0 +1,14 @@
+.navbar {
+    padding: 10px;
+}
+
+.breadcrumb {
+    background-color: #f8f9fa; /* Light gray background for breadcrumb */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.img-fluid {
+    margin-top: 15px;
+    border-radius: 10px;
+}
